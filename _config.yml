@@ -1,3 +1,5 @@
+# layout: stacked
+# style: dark
 layout: sidebar
 style: light
 
@@ -18,9 +20,9 @@ defaults:
 
 projects:
   sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
+  sort_by options:
+    - pushed
+    - stars
   limit: 9
   exclude:
     forks: true
@@ -44,7 +46,9 @@ topics:
     web_url: https://github.com/topics/css
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
 
-  - name: Web design
+  - name: ElasticSearch
+    web_url: https://github.com/elastic/elasticsearch
+    image_url: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1552831739458&di=a40599e427d0158102243fa395406418&imgtype=0&src=http%3A%2F%2Fwww.linuxeden.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fa32b5d1af3e2d6b9abd0cddc94a870cbb21.jpg
 
   - name: Sass
     web_url: https://github.com/topics/sass
